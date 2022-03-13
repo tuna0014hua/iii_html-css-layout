@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+*{ margin: 0; padding: 0; font-family: 'Noto Sans TC', sans-serif;}
+.main_content{width: 850px; margin: 0 auto; border: 1px solid #7B7B7B;}
+h2{ padding: 20px;}
+.main_pic{ margin: 0 25px; border: 3px solid #8E8E8E; float: left;}
+img{ width: 350px; margin: 10px 15px; /*padding: 2px;*/ border: 3px solid #ADADAD;}
+.txt{ width: 350px; margin: 0 auto; padding-bottom: 20px; font-size: 14px; text-align: center;}
+p{ padding: 0 25px 20px; line-height: 25px; text-align: left;}
+.p4{ padding-top: 40px;}

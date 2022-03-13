@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>文繞圖</title>
+    <meta name="author" content="Tuna Hua">
+    <meta name="description" content="0702Box Model文繞圖練習">
+    <meta name="keyword" content="box,model,文繞圖,0702,HTML,CSS">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+
+        body {
+            background-color: #b1b1b1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .main_content {
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #808080;
+            border-radius: 20px;
+            background-color: #FFF;
+            display: block;
+            box-shadow: 5px 20px 15px #000;
+        }
+
+        .main_pic {
+            width: 300px;
+            border: 1px solid #505050;
+            float: left;
+            margin-right: 20px;
+            padding: 20px;
+        }
+
+        img {
+            width: 300px;
+            border: 1px solid #000000;
+        }
+
+        .txt {
+            font-size: 12px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: rgb(0, 137, 172);
+            /* text-shadow: -5px 5px 15px rgb(68, 68, 68); */
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 2;
+            text-indent: 32px;
+        }
+
+        /* .main_content{width: 850px; margin: 0 auto; border: 1px solid #7B7B7B; display: block;}
+            h2{ padding: 20px;}
+            .main_pic{ margin: 0 25px; border: 3px solid #8E8E8E; float: left;}
+            img{ width: 350px; margin: 10px 15px; border: 3px solid #ADADAD;}
+            .txt{ width: 350px; margin: 0 auto; padding-bottom: 20px; font-size: 14px; text-align: center;}
+            p{ padding: 0 25px 20px; line-height: 25px; text-align: left;}
+            .p4{ padding-top: 40px;} */
+    </style>
+
+    <script>
+        document.createElement("article");
+        document.createElement("figure");
+        document.createElement("figcaption");
+    </script>
+</head>
+
+<body>
+    <article class="main_content">
+        <h2>貓奴每天打開包包都收到「貼心乾糧」2萬人被暖暈：怕你餓到</h2>
+
+        <figure class="main_pic">
+            <a href="https://pets.ettoday.net/news/2019465" target="_blank">
+                <img src="images/cat.jpg" alt="貓咪吃飼料" title="貓咪怕奴才餓到，幾乎每天都把飼料放進包包裡面">
+            </a>
+            <figcaption class="txt">▲貓咪怕奴才餓到，幾乎每天都把飼料放進包包裡面。</figcaption>
+        </figure>
+
+        <p>能收到貓主子天天送的禮物是一種福氣！美國一名女網友分享自己經常在包包裡翻到幾顆飼料，
+            起初以為是貓咪貪玩不以為意，直到後來才發現，愛貓諾瓦（Nova）幾乎每天都會幫她補充新鮮的乾糧，
+            似乎是怕主人餓到，暖心又可愛的感動被分享出來融化2萬名網友。
+        </p>
+        <p>女網友JJ M’kael本身很喜歡貓咪，先前還未養寵物時經常在貓咪社團團望，直到後來遇見諾瓦正式成為貓奴一族。
+            前陣子JJ發現包包的側邊口袋常常有幾顆貓飼料，起初以為是諾瓦在玩鬧時不小心弄進去，好幾次都把飼料拿出來清空，
+            但隔一天同個口袋又會出現飼料，才發現原來一切不是巧合。
+        </p>
+        <p>「我的貓每天晚上都給我點心，以防我出門時餓了！」JJ笑說，自己在諾瓦的眼中可能是一位技巧很差的獵人，
+            所以牠才會每天到咬乾糧放進包包。照片分享到貓咪臉書社團之後，吸引超過網友熱烈回應。
+        </p>
+        <p class="p4">事實上這則貼文在2020年曾發佈，由於貓咪的行徑實在太暖心了，近日又被轉貼在各大社團，許多網友看完紛紛留言笑說，
+            「好貼心的主子」、「以後出門就不怕餓到，往口袋摸一摸馬上有乾乾可以吃XD」、「貓咪太暖了吧～」、
+            「這是我看過貓咪送過最貼心最棒的禮物，比起老鼠屍體之類…」、「好喜歡這種禮物」。
+        </p>
+    </article>
+</body>
+
+</html>

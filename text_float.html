@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>文繞圖2</title>
+    <meta name="author" content="Tuna Hua">
+    <meta name="description" content="文繞圖練習2">
+    <meta name="keyword" content="html,css,文繞圖">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+        body{
+            background-color: rgb(255, 244, 228);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 850px;
+            background-color: rgba(255,255,255,.8);
+             border: 1px solid rgb(253, 224, 181); 
+            border-radius: 20px;
+            margin: 20px auto;
+            padding: 30px;
+            box-shadow: 0px 0px 50px rgb(253, 224, 181);
+        }
+
+        h1 {
+            color: rgb(216, 25, 57);
+            margin-bottom: 20px;
+        }
+
+        .main_pic {
+            width: 650px;
+            margin: 10px auto;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .main_pic img {
+            width: 650px;
+        }
+
+        .left {
+            width: 81%;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 40px;
+            /* padding: 20px 0; */
+        }
+
+        .main_pic1 {
+            width: 300px;
+            height: 260px;
+            float: left;
+            border: 1px solid black;
+            margin-right: 50px;
+            padding: 15px;
+        }
+
+        .coffee1,
+        .coffee2,
+        .coffee3,
+        .coffee4,
+        .coffee5,
+        .coffee6 {
+            width: 300px;
+        }
+
+        .right {
+            width: 81%;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 40px;
+            /* padding: 20px 0; */
+        }
+
+        .main_pic2 {
+            width: 300px;
+            height: 260px;
+            float: right;
+            border: 1px solid black;
+            margin-left: 50px;
+            padding: 15px;
+        }
+
+        h3 {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        p {
+            line-height: 2;
+            text-align: justify;
+            text-indent: 32px;
+        }
+
+        .txt {
+            padding-top: 10px;
+        }
+
+        figcaption {
+
+            font-size: 14px;
+        }
+
+        .main {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>星巴克巧妙演繹日本47在地特色！看完好想去日本</h1>
+            <p>1996年第一間星巴克在東京銀座開幕至今，剛好是第25周年，日本星巴克推出誠意滿滿的「47 JIMOTO 星冰樂」，
+                結合全國47道府縣充滿地方特色的特產，開發出47款只在當地才喝得到的口味，來看看哪個地區會是你的「菜」吧！
+            </p>
+            <figure class="main_pic">
+                <a href="https://n.yam.com/Article/20210701257592" target="_blank">
+                    <img src="images/japan_starbucks.jpg" alt="星巴克巧妙演繹日本47在地特色" title="日本星巴克推出誠意滿滿的「47 JIMOTO 星冰樂」"
+                        class="coffee">
+                </a>
+                <figcaption>日本星巴克25周年推出47款在地限定特色星冰樂。</figcaption>
+            </figure>
+        </div>
+
+        <div class="left">
+            <figure class="main_pic1">
+                <img src="images/japan_starbucks01.jpg" alt="北海道地區" title="北海道的玉米" class="coffee1">
+                <figcaption>北海道玉米奶霜星冰樂。</figcaption>
+            </figure>
+            <h3>北海道地區</h3>
+            <p class="txt">北海道的玉米是日本全國產量第一，以玉米碎做基底，將白巧克力風味糖漿，
+                加入北海道生乳製作而成的奶霜，宛如在純白雪景中加入陽光反射的光芒，充滿北海道氣息。
+            </p>
+        </div>
+
+
+        <div class="right">
+            <figure class="main_pic2">
+                <img src="images/japan_starbucks02.jpg" alt="東北地區" title="在白巧克力風味中淋上毛豆抹茶醬的宮城縣毛豆抹茶星冰樂。" class="coffee2">
+                <figcaption>在白巧克力風味中淋上毛豆抹茶醬的宮城縣毛豆抹茶星冰樂。</figcaption>
+            </figure>
+            <h3>東北地區</h3>
+            <p class="txt">包括：青森縣的蘋果草莓星冰樂、岩手縣的抹茶芝麻星冰樂、
+                宮城縣的毛豆抹茶星冰樂、秋田縣的 鹽焦糖星冰樂、山形縣的法蘭西梨星冰樂、福島縣的熱帶水果星冰樂。
+            </p>
+        </div>
+
+        <!-- <div class="spe">
+            <h3>關東地區</h3>
+            <figure class="main_pic1">
+                <img src="images/japan_starbucks03.jpg" alt="關東地區" title="以神奈川的碧海藍天創作，將蝶豆花糖漿與牛奶，最後淋上柑橘果醬。"
+                    class="coffee3">
+                <figcaption>以神奈川的碧海藍天創作，將蝶豆花糖漿與牛奶，最後淋上柑橘果醬。</figcaption>
+            </figure>
+            <p>包括：茨城縣的哈密瓜奶霜星冰樂、栃木縣栃的跳跳糖巧克力星冰樂、群馬縣的芒果優格星冰樂、
+                埼玉縣的草莓柑橘星冰樂、千葉縣的咖啡奶霜星冰樂、東京都的焦糖咖啡凍星冰樂、神奈川的夏日藍色奶霜星冰樂。
+            </p>
+
+            <figure class="main_pic2">
+                <img src="images/japan_starbucks04.jpg" alt="關東地區" title="不只有咖啡香，更把千葉產醬油的特色帶入，融合醬油糰子醬汁的特色調味。"
+                    class="coffee4">
+                <figcaption>不只有咖啡香，更把千葉產醬油的特色帶入，融合醬油糰子醬汁的特色調味。</figcaption>
+            </figure>
+        </div> -->
+
+        <div class="left">
+            <figure class="main_pic1">
+                <img src="images/japan_starbucks05.jpg" alt="中部地區" title="起源愛知縣名古屋的喫茶店，有點飲料贈早餐的文化，尤其是小倉紅豆吐司配咖啡更是人氣搭配。"
+                    class="coffee5">
+                <figcaption>起源愛知縣名古屋的喫茶店，有點飲料贈早餐的文化，尤其是小倉紅豆吐司配咖啡更是人氣搭配。</figcaption>
+            </figure>
+            <h3>中部地區</h3>
+            <p class="txt">包括：新潟的柿種巧克力星冰樂、富山的西瓜星冰樂、石川的棒焙茶星冰樂、福井的米香抹茶星冰樂、山梨的葡萄白巧克力奶霜星冰樂、
+                長野的蘋果奶油焦糖星冰樂、岐阜的抹茶咖啡凍星冰樂、靜岡的橘子星冰樂、愛知的紅豆咖啡星冰樂。
+            </p>
+        </div>
+
+        <div class="right">
+            <figure class="main_pic2">
+                <img src="images/japan_starbucks06.jpg" alt="沖繩" title="金楚糕香草焦糖星冰樂。" class="coffee6">
+                <figcaption>金楚糕香草焦糖星冰樂。</figcaption>
+            </figure>
+            <h3>沖繩</h3>
+            <p class="txt">以香草風味牛奶做基底，放入略帶鹹味的沖繩特產「金楚糕」，與焦糖醬混合攪打，帶有金楚糕碎粒豐富口感，琉球王國時期傳下的傳統菓點，超有特色。
+            </p>
+        </div>
+        <p>目前星巴克在日本已有超過1,600家店鋪，每個地區將在地的特產美食，以及山川美景的意象拌入，開發出當地限定販售的星冰樂口味，
+            從6月30日至8月3日限量發售，好想在日本玩大地遊戲闖關一樣，去怒吃一波呀！
+        </p>
+    </div>
+    <!--container end-->
+</body>
+
+</html>

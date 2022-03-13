@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Model Test</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <script></script>
+        <style>
+            .container{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .boxmargin,.boxborder,.boxpadding,.boxcontent{
+                padding: 0 20px;
+                font-size: 18px;
+                border: 1px solid #888;
+                line-height: 2;
+            }
+            .boxmargin{
+                background-color: #F9CC9D; 
+            }
+            .boxborder{
+                background-color: #FDDD9B;
+            }
+            .boxpadding{
+                background-color: #C2CF8A;
+            }
+            .boxcontent{
+                background-color: #8BB5C0;
+                min-width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="boxmargin">
+                    <span>Margin</span>
+                    <div class="boxborder">
+                        <span>Border</span>
+                        <div class="boxpadding">
+                            <span>Padding</span>
+                            <div class="boxcontent">
+                                <span>Content</span>
+                            </div><!--boxcontent end-->
+                            <span>&nbsp;</span>
+                        </div><!--boxpadding end-->
+                        <span>&nbsp;</span>
+                    </div><!--boxborder end-->
+                    <span>&nbsp;</span>
+                </div><!--boxmargin end-->
+            </div><!--box end-->
+        </div><!--container end-->
+
+    </body>
+</html>
